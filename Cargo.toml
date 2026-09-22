@@ -1,0 +1,12 @@
+[package]
+name = "argentavis"
+version = "0.1.0"
+edition = "2024"
+description = "Making Avian3D bigger and badder (perhaps mostly badder) by extending it with high precision floating origin coordinates"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Snoodle-Games/Argentavis/"
+
+[dependencies]
+avian3d = "0.7.0"
+bevy = "0.19.1"
+ultra-coords = { version = "0.1.0", path = "../ultra-coords" }
